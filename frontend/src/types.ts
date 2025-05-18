@@ -1,26 +1,13 @@
-export interface OddsOutcome {
-  name: string;
-  price: number;
-}
-
-export interface Market {
-  key: string;
-  outcomes: OddsOutcome[];
-}
-
-export interface Bookmaker {
-  key: string;
-  title: string;
-  markets: Market[];
-}
-
-export interface FightEvent {
-  id: string;
-  teams: [string, string];
-  commence_time: string;
-  bookmakers: Bookmaker[];
-}
-
-export interface FightWithProb extends FightEvent {
-  eloProb: number;
+export interface FightOut {
+  fighter1: string;
+  fighter2: string;
+  odds1: number;
+  odds2: number;
+  eloProb1: number;
+  eloProb2: number;
+  impProb1: number;
+  impProb2: number;
+  ev1: number;
+  ev2: number;
+  predWinner: number;
 }

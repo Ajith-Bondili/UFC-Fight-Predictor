@@ -1,5 +1,3 @@
-# update_ufcfights.py
-
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
@@ -14,7 +12,7 @@ def get_page_html(page: int) -> BeautifulSoup:
     return BeautifulSoup(resp.content, "html.parser")
 
 def main():
-    csv_path = "ufcfights.csv"
+    csv_path = "data/ufcfights.csv"
     cols = ["event","fighter_1","fighter_2","result","method","round","time"]
 
     if os.path.exists(csv_path):

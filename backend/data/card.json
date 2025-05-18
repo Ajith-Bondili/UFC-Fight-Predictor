@@ -1,0 +1,38 @@
+[
+  {
+    "fighter1": "Jack Della Maddalena",
+    "fighter2": "Belal Muhammad",
+    "odds1": 160,
+    "odds2": -192
+  },
+  {
+    "fighter1": "Valentina Shevchenko",
+    "fighter2": "Manon Fiorot",
+    "odds1": 114,
+    "odds2": -135
+  },
+  {
+    "fighter1": "José Aldo",
+    "fighter2": "Aiemann Zahabi",
+    "odds1": -185,
+    "odds2": 154
+  },
+  {
+    "fighter1": "Alexa Grasso",
+    "fighter2": "Natalia Silva",
+    "odds1": 195,
+    "odds2": -238
+  },
+  {
+    "fighter1": "Benoit Saint-Denis",
+    "fighter2": "Kyle Prepolec",
+    "odds1": -1500,
+    "odds2": 800
+  },
+  {
+    "fighter1": "Mike Malott",
+    "fighter2": "Charles Radtke",
+    "odds1": -205,
+    "odds2": 170
+  }
+]

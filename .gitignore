@@ -142,3 +142,19 @@ __pycache__/
 # Node.js
 /frontend/node_modules/
 /frontend/.env*
+
+# Python
+/backend/data/*.csv
+/backend/venv/
+/__pycache__/
+/*.py[cod]
+
+# Node
+/frontend/node_modules/
+/frontend/.env*
+
+# Logs
+*.log
+
+# VSCode
+.vscode/

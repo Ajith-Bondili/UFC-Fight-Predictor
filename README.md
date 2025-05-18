@@ -1,6 +1,8 @@
 # UFC Fights EV Predictor
 
-A simple React+TypeScript frontend showing weekly UFC fights with sportsbook odds and my Python Elo‑based win probabilities & expected value (EV). Positive‑EV fighters are highlighted in green; negative in red.
+**A simple React+TypeScript frontend showing weekly UFC fights with sportsbook odds, alongside my Python Elo‑based win probabilities & expected value (EV) model. Positive‑EV fighters are highlighted in green; negative‑EV fighters in red. If both fighters have negative EV, both will be red. Screenshot below shows data from UFC 315.
+
+If you use this to place your own bets, please do so at your own discretion.**
 
 <p align="center">
   <img src="./assets/ufc315_predictions.png" alt="UFC 315 Predictions UI" width="600"/>
@@ -22,6 +24,5 @@ A simple React+TypeScript frontend showing weekly UFC fights with sportsbook odd
 ## Getting Started
 
 ```bash
-cd frontend
-npm install
-npm run dev
+docker compose up --build
+
