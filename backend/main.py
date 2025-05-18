@@ -4,23 +4,15 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List
 import pandas as pd
-import os
 
 from elo_engine import UFCEloEngine
 from predictions import compute_metrics
 
 app = FastAPI()
 
-origins = [
-    "http://localhost:5173",
-    "http://frontend:5173",
-    "https://fightev-frontend.onrender.com",
-    os.environ.get("FRONTEND_URL", "")
-]
-
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[origin for origin in origins if origin],
+    allow_origins=["http://localhost:5173", "http://frontend:5173"],
     allow_methods=["GET"],
     allow_headers=["*"],
 )
@@ -55,4 +47,4 @@ def get_fights():
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("main:app", host="0.0.0.0", port=int(os.environ.get("PORT", "8000")), reload=True)
+    uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
