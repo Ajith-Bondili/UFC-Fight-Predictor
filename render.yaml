@@ -20,8 +20,5 @@ services:
       - key: NODE_VERSION
         value: 20
       - key: VITE_BACKEND_URL
-        fromService:
-          name: fightev-backend
-          type: web
-          property: url
+        value: https://fightev-backend.onrender.com
     autoDeploy: true 
