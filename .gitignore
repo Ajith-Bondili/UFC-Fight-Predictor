@@ -144,7 +144,6 @@ __pycache__/
 /frontend/.env*
 
 # Python
-/backend/data/*.csv
 /backend/venv/
 /__pycache__/
 /*.py[cod]
