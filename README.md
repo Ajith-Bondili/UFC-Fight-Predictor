@@ -14,11 +14,12 @@ If you use this to place your own bets, please do so at your own discretion.
 - **Elo model** built in Python 
 - **Expected value (EV)** calculation & color‑coded borders  
 - **“Predicted Winner”** badge under the fighter with Elo > 50%
+- **Update Fight Data Weekly** with a GitHub Actions Workflow setup with the scraper
 
 ## Tech Stack
 
 - **Frontend:** React, TypeScript, Vite 
-- **Backend:** Python
+- **Backend:** Python, FastAPI, GitHub Actions
 - **Data:** UFC Stats scraping, Elo engine
 
 ## Getting Started
