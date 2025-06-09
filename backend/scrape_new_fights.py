@@ -12,7 +12,7 @@ def get_page_html(page: int) -> BeautifulSoup:
     return BeautifulSoup(resp.content, "html.parser")
 
 def main():
-    csv_path = "data/ufcfights.csv"
+    csv_path = "backend/data/ufcfights.csv"
     cols = ["event","fighter_1","fighter_2","result","method","round","time"]
 
     if os.path.exists(csv_path):

@@ -1,38 +1,32 @@
 [
   {
-    "fighter1": "Jack Della Maddalena",
-    "fighter2": "Belal Muhammad",
-    "odds1": 160,
-    "odds2": -192
+    "fighter1": "Merab Dvalishvili",
+    "fighter2": "Sean O'Malley",
+    "odds1": -325,
+    "odds2": 260
   },
   {
-    "fighter1": "Valentina Shevchenko",
-    "fighter2": "Manon Fiorot",
-    "odds1": 114,
-    "odds2": -135
+    "fighter1": "Julianna Peña",
+    "fighter2": "Kayla Harrison",
+    "odds1": 455,
+    "odds2": -625
   },
   {
-    "fighter1": "José Aldo",
-    "fighter2": "Aiemann Zahabi",
-    "odds1": -185,
-    "odds2": 154
+    "fighter1": "Kelvin Gastelum",
+    "fighter2": "Joe Pyfer",
+    "odds1": 310,
+    "odds2": -395
   },
   {
-    "fighter1": "Alexa Grasso",
-    "fighter2": "Natalia Silva",
-    "odds1": 195,
-    "odds2": -238
+    "fighter1": "Mario Bautista",
+    "fighter2": "Patchy Mix",
+    "odds1": 150,
+    "odds2": -180
   },
   {
-    "fighter1": "Benoit Saint-Denis",
-    "fighter2": "Kyle Prepolec",
-    "odds1": -1500,
-    "odds2": 800
-  },
-  {
-    "fighter1": "Mike Malott",
-    "fighter2": "Charles Radtke",
-    "odds1": -205,
-    "odds2": 170
+    "fighter1": "Vicente Luque",
+    "fighter2": "Kevin Holland",
+    "odds1": 164,
+    "odds2": -198
   }
 ]

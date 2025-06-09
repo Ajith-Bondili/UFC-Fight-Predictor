@@ -15,7 +15,7 @@ export default function App() {
 
   return (
     <div style={styles.container}>
-      <h1 style={styles.header}>UFC 315 Predictions</h1>
+      <h1 style={styles.header}>UFC 316 Predictions</h1>
 
       {fights.map((f, i) => {
         const imp1 = f.impProb1;
