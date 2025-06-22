@@ -6,6 +6,10 @@ export default defineConfig({
   server: {
     host: '0.0.0.0',
     port: 5173,
+    allowedHosts: [
+      'localhost',
+      'jodhbirs-frontend--5173.prod2.defang.dev'
+    ],
     proxy: {
       '/fights': {
         target: 'http://backend:8000',
