@@ -12,7 +12,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://frontend:5173"],
+    allow_origins=["http://localhost:5173", "http://frontend:5173", "jodhbirs-frontend.prod2.defang.dev"],
     allow_methods=["GET"],
     allow_headers=["*"],
 )
