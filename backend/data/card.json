@@ -1,32 +1,20 @@
 [
   {
-    "fighter1": "Merab Dvalishvili",
-    "fighter2": "Sean O'Malley",
-    "odds1": -325,
-    "odds2": 260
+    "fighter1": "Jamahal Hill",
+    "fighter2": "Khalil Rountree",
+    "odds1": -120,
+    "odds2": 100
   },
   {
-    "fighter1": "Julianna Peña",
-    "fighter2": "Kayla Harrison",
-    "odds1": 455,
-    "odds2": -625
+    "fighter1": "Ignacio Bahamondes",
+    "fighter2": "Rafael Fiziev",
+    "odds1": -142,
+    "odds2": 122
   },
   {
-    "fighter1": "Kelvin Gastelum",
-    "fighter2": "Joe Pyfer",
-    "odds1": 310,
-    "odds2": -395
-  },
-  {
-    "fighter1": "Mario Bautista",
-    "fighter2": "Patchy Mix",
-    "odds1": 150,
-    "odds2": -180
-  },
-  {
-    "fighter1": "Vicente Luque",
-    "fighter2": "Kevin Holland",
-    "odds1": 164,
-    "odds2": -198
+    "fighter1": "Curtis Blaydes",
+    "fighter2": "Rizvan Kuniev",
+    "odds1": -258,
+    "odds2": 218
   }
 ]
