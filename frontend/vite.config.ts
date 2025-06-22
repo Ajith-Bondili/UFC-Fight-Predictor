@@ -13,8 +13,9 @@ export default defineConfig({
     ],
     proxy: {
       '/fights': {
-        target: 'http://backend:8000',
+        target: 'https://jodhbirs-backend.prod2.defang.dev',
         changeOrigin: true,
+        secure: true
       }
     }
   },
