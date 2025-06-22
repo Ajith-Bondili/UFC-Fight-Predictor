@@ -5,7 +5,11 @@ from datetime import datetime, timedelta
 
 API_KEY = os.getenv("ODDS_API_KEY")
 
-def fetch_ufc_odds():  
+def fetch_ufc_odds():
+    if not API_KEY:
+        print("API key not set. Please set the ODDS_API_KEY environment variable.")
+        return
+    
     base_url = "https://api.the-odds-api.com/v4"
     sport = "mma_mixed_martial_arts"
     
