@@ -8,7 +8,8 @@ export default defineConfig({
     port: 5173,
     allowedHosts: [
       'localhost',
-      'jodhbirs-frontend--5173.prod2.defang.dev'
+      'jodhbirs-frontend--5173.prod2.defang.dev',
+      'jodhbirs-frontend.prod2.defang.dev'
     ],
     proxy: {
       '/fights': {

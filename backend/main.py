@@ -15,7 +15,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:5173", 
         "http://frontend:5173", 
-        "jodhbirs-frontend.prod2.defang.dev",
+        "https://jodhbirs-frontend.prod2.defang.dev",
         "https://jodhbirs-frontend--5173.prod2.defang.dev"
     ],
     allow_methods=["GET"],
