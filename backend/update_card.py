@@ -90,8 +90,13 @@ def fetch_ufc_odds():
         print(f"Collected {len(all_fights)} fights")
         
         if all_fights:
-            card_file = 'data/card.json'
-            os.makedirs('data', exist_ok=True)
+            if os.path.basename(os.getcwd()) == 'backend':
+                card_file = 'data/card.json'
+                os.makedirs('data', exist_ok=True)
+            else:
+                card_file = 'backend/data/card.json'
+                os.makedirs('backend/data', exist_ok=True)
+                
             with open(card_file, 'w') as f:
                 json.dump(all_fights, f, indent=2)
             print("Card updated")
