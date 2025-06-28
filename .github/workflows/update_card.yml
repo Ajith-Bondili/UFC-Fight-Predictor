@@ -28,7 +28,7 @@ jobs:
       - name: Run card update script
         run: python backend/update_card.py
         env:
-          API_KEY: ${{ secrets.ODDS_API_KEY }}
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
 
       - name: Commit and push updates
         run: |
