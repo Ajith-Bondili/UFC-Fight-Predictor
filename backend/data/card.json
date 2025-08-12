@@ -1,80 +1,86 @@
 [
   {
-    "fighter1": "Anthony Hernandez",
-    "fighter2": "Roman Dolidze",
-    "odds1": -335,
-    "odds2": 270
+    "fighter1": "Dustin Poirier",
+    "fighter2": "Max Holloway",
+    "odds1": 120,
+    "odds2": -142
   },
   {
-    "fighter1": "Ode Osbourne",
-    "fighter2": "Stephen Erceg",
-    "odds1": 440,
-    "odds2": -590
+    "fighter1": "Paulo Henrique Costa",
+    "fighter2": "Roman Kopylov",
+    "odds1": 188,
+    "odds2": -225
   },
   {
-    "fighter1": "Angela Hill",
-    "fighter2": "Iasmin Lucindo",
-    "odds1": 150,
-    "odds2": -178
+    "fighter1": "Daniel Rodriguez",
+    "fighter2": "Kevin Holland",
+    "odds1": 450,
+    "odds2": -600
   },
   {
-    "fighter1": "Andre Fili",
-    "fighter2": "Christian Rodriguez",
-    "odds1": 205,
-    "odds2": -250
+    "fighter1": "Dan Ige",
+    "fighter2": "Patricio Pitbull",
+    "odds1": -220,
+    "odds2": 184
   },
   {
-    "fighter1": "Jean Matsumoto",
-    "fighter2": "Miles Johns",
-    "odds1": -250,
-    "odds2": 205
+    "fighter1": "Daniel Zellhuber",
+    "fighter2": "Michael Johnson",
+    "odds1": -650,
+    "odds2": 480
   },
   {
-    "fighter1": "Christian Leroy Duncan",
-    "fighter2": "Eryk Anders",
-    "odds1": -500,
-    "odds2": 385
+    "fighter1": "Kyler Phillips",
+    "fighter2": "Vinicius Oliveira",
+    "odds1": 124,
+    "odds2": -146
   },
   {
-    "fighter1": "Julius Walker",
-    "fighter2": "Raffael Cerqueira",
-    "odds1": -700,
-    "odds2": 500
+    "fighter1": "Brendan Allen",
+    "fighter2": "Marvin Vettori",
+    "odds1": -190,
+    "odds2": 160
   },
   {
-    "fighter1": "Elijah Smith",
-    "fighter2": "Toshiomi Kazama",
-    "odds1": -770,
-    "odds2": 540
+    "fighter1": "Francisco Prado",
+    "fighter2": "Nikolay Veretennikov",
+    "odds1": -130,
+    "odds2": 110
   },
   {
-    "fighter1": "Joselyne Edwards",
-    "fighter2": "Priscila Cachoeira",
-    "odds1": -390,
-    "odds2": 310
+    "fighter1": "Ateba Gautier",
+    "fighter2": "Robert Valentin",
+    "odds1": -520,
+    "odds2": 400
   },
   {
-    "fighter1": "Gilbert Urbina",
-    "fighter2": "Uros Medic",
-    "odds1": 270,
-    "odds2": -335
+    "fighter1": "Adam Fugitt",
+    "fighter2": "Islam Dulatov",
+    "odds1": 500,
+    "odds2": -700
   },
   {
-    "fighter1": "Gabriella Fernandes",
-    "fighter2": "Julija Stoliarenko",
-    "odds1": -450,
-    "odds2": 350
+    "fighter1": "Jim Crute",
+    "fighter2": "Marcin Prachnio",
+    "odds1": -330,
+    "odds2": 265
   },
   {
-    "fighter1": "Cody Brundage",
-    "fighter2": "Eric McConico",
-    "odds1": -194,
-    "odds2": 162
+    "fighter1": "Lukasz Brzeski",
+    "fighter2": "Ryan Spann",
+    "odds1": 194,
+    "odds2": -235
   },
   {
-    "fighter1": "Mohamed Camara",
-    "fighter2": "Patrick Ocheme",
-    "odds1": 172,
-    "odds2": -205
+    "fighter1": "Brunno Ferreira",
+    "fighter2": "Jackson McVey",
+    "odds1": -550,
+    "odds2": 410
+  },
+  {
+    "fighter1": "Carli Judice",
+    "fighter2": "Nicolle Caliari",
+    "odds1": -405,
+    "odds2": 320
   }
 ]
