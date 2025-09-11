@@ -14,9 +14,9 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173", 
-        "http://frontend:5173", 
-        "https://jodhbirs-frontend.prod2.defang.dev",
-        "https://jodhbirs-frontend--5173.prod2.defang.dev"
+        "http://frontend:5173",
+        "https://*.vercel.app",
+        "https://vercel.app"
     ],
     allow_methods=["GET"],
     allow_headers=["*"],
