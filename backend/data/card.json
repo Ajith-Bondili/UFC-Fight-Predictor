@@ -1,80 +1,86 @@
 [
   {
-    "fighter1": "Caio Borralho",
-    "fighter2": "Nassourdine Imavov",
-    "odds1": -132,
-    "odds2": 112
+    "fighter1": "Diego Lopes",
+    "fighter2": "Jean Silva",
+    "odds1": 210,
+    "odds2": -255
   },
   {
-    "fighter1": "Benoit Saint-Denis",
-    "fighter2": "Mauricio Ruffy",
-    "odds1": 144,
-    "odds2": -172
+    "fighter1": "David Martinez",
+    "fighter2": "Rob Font",
+    "odds1": 100,
+    "odds2": -118
   },
   {
-    "fighter1": "Modestas Bukauskas",
-    "fighter2": "Paul Craig",
-    "odds1": -335,
-    "odds2": 270
+    "fighter1": "Jared Gordon",
+    "fighter2": "Rafa Garcia",
+    "odds1": -230,
+    "odds2": 190
   },
   {
-    "fighter1": "Bolaji Oki",
-    "fighter2": "Mason Jones",
-    "odds1": 120,
-    "odds2": -142
+    "fighter1": "Dustin Stoltzfus",
+    "fighter2": "Kelvin Gastelum",
+    "odds1": 194,
+    "odds2": -235
   },
   {
-    "fighter1": "Axel Sola",
-    "fighter2": "Rhys McKee",
+    "fighter1": "Alex Hernandez",
+    "fighter2": "Carlos Diego Ferreira",
+    "odds1": 100,
+    "odds2": -118
+  },
+  {
+    "fighter1": "Quang Le",
+    "fighter2": "Santiago Luna",
+    "odds1": 130,
+    "odds2": -154
+  },
+  {
+    "fighter1": "Dusko Todorovic",
+    "fighter2": "Jose Daniel Medina",
+    "odds1": -405,
+    "odds2": 320
+  },
+  {
+    "fighter1": "Claudio Puelles",
+    "fighter2": "Joaquim Silva",
     "odds1": -126,
     "odds2": 108
   },
   {
-    "fighter1": "Robert Ruchala",
-    "fighter2": "William Gomis",
-    "odds1": 220,
-    "odds2": -270
+    "fighter1": "Amanda Lemos",
+    "fighter2": "Tatiana Suarez",
+    "odds1": 340,
+    "odds2": -430
   },
   {
-    "fighter1": "Brendson Ribeiro",
-    "fighter2": "Oumar Sy",
-    "odds1": 420,
-    "odds2": -560
+    "fighter1": "Jesus Santos Aguilar",
+    "fighter2": "Luis Gurule",
+    "odds1": 176,
+    "odds2": -210
   },
   {
-    "fighter1": "Ante Delija",
-    "fighter2": "Marcin Tybura",
-    "odds1": -110,
-    "odds2": -106
+    "fighter1": "Sedriques Dumas",
+    "fighter2": "Zachary Reese",
+    "odds1": 194,
+    "odds2": -235
   },
   {
-    "fighter1": "Harry Hardwick",
-    "fighter2": "Kau\u00ea Fernandes",
-    "odds1": 168,
-    "odds2": -200
+    "fighter1": "Alden Coria",
+    "fighter2": "Alessandro Costa",
+    "odds1": 295,
+    "odds2": -370
   },
   {
-    "fighter1": "Sam Patterson",
-    "fighter2": "Trey Waters",
-    "odds1": -194,
-    "odds2": 162
+    "fighter1": "Alice Pereira",
+    "fighter2": "Montserrat Rendon",
+    "odds1": -164,
+    "odds2": 138
   },
   {
-    "fighter1": "Brad Tavares",
-    "fighter2": "Robert Bryczek",
-    "odds1": -210,
-    "odds2": 176
-  },
-  {
-    "fighter1": "Andreas Gustafsson Berg",
-    "fighter2": "Rinat Fakhretdinov",
-    "odds1": -134,
-    "odds2": 114
-  },
-  {
-    "fighter1": "Sam Hughes",
-    "fighter2": "Shauna Bannon",
-    "odds1": -275,
-    "odds2": 225
+    "fighter1": "Daniil Donchenko",
+    "fighter2": "Rodrigo Sezinando",
+    "odds1": -205,
+    "odds2": 172
   }
 ]
