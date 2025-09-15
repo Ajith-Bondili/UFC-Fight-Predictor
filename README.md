@@ -1,30 +1,46 @@
-# UFC Fights EV Predictor
+# UFC Fights EV Predictor
 
-A simple React + TypeScript frontend showing main UFC fight cards with sportsbook odds, alongside my Python Elo‑based win probabilities & expected value (EV) model. Positive‑EV fighters are highlighted in green; negative‑EV fighters in red. The new fight card is uploaded at noon on the day of the fight, and the fight data is scraped the next morning. Screenshot below shows data from UFC 315.
+A React + TypeScript frontend that displays UFC fight cards with sportsbook odds, alongside a Python Elo‑based probability and expected value (EV) model. Fighters with positive EV are emphasized; negative EV are de‑emphasized. Cards are fetched on a schedule and fight data is scraped weekly.
 
 If you use this to place your own bets, please do so at your own discretion.
 
 <p align="center">
-  <img src="./assets/ufc315_predictions.png" alt="UFC 315 Predictions UI" width="600"/>
+  <img src="./assets/ufc315_predictions.png" alt="UFC Fights EV Predictor UI" width="600"/>
 </p>
 
 ## Features
 
-- **Odds & implied probabilities** from UFC’s official site  
-- **Elo model** built in Python 
-- **Expected value (EV)** calculation & color‑coded borders  
-- **“Predicted Winner”** badge under the fighter with Elo > 50%
-- **Update Fight Data Weekly** with a GitHub Actions Workflow setup with the scraper
-- **Update Fight Cards Weekly** with a GitHub Actions Workflow setup with an odds API
+- **Compact card view** with odds and implied probabilities  
+- **Elo model** in Python for win probability  
+- **Expected value (EV)** computation with color emphasis  
+- **Model Pick** badge for the preferred side  
+- **Automated updates** via GitHub Actions for card and data
 
 ## Tech Stack
 
-- **Frontend:** React, TypeScript, Vite 
-- **Backend:** Python, FastAPI, GitHub Actions
-- **Data:** UFC Stats scraping, Elo engine, Odds API
+- **Frontend:** React, TypeScript, Vite  
+- **Backend:** Python, FastAPI  
+- **Data:** UFC stats scraping, Elo engine, odds API
 
 ## Getting Started
 
+- Docker (recommended):
 ```bash
 docker compose up --build
+```
 
+- Local dev (frontend only):
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+- Config:
+  - Frontend reads `VITE_BACKEND_URL` (optional). If unset, it will call the same origin (use the dev proxy or set the env var).
+  - Backend CORS allows localhost and can include a production domain via `FRONTEND_ORIGIN` env (see `backend/app/config.py`).
+
+## Deployment
+
+- Point your frontend to your backend by setting `VITE_BACKEND_URL` in your hosting provider’s env.
+- Update backend CORS by setting `FRONTEND_ORIGIN` to your deployed frontend domain.

@@ -1,5 +1,5 @@
 {
-  "name": "ufc-last-night",
+  "name": "ufc-fights-ev-predictor",
   "version": "0.0.1",
   "scripts": {
     "dev": "vite",

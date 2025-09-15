@@ -43,7 +43,7 @@ export default function App() {
   }, []);
 
   if (loading) {
-    return <div style={styles.loading}>Loading predictions...</div>;
+    return <div style={styles.loading}>Loading EV...</div>;
   }
 
   if (error) {
@@ -59,7 +59,8 @@ export default function App() {
 
   return (
     <div style={styles.container}>
-      <h1 style={styles.header}>UFC Predictions</h1>
+      <h1 style={styles.header}>UFC Fights EV Predictor</h1>
+      <p style={styles.subheader}>Model‑driven probabilities, implied odds, and EV highlights</p>
 
       <main>
         {allFights.map((fight, index) => {
@@ -84,7 +85,7 @@ export default function App() {
                   >
                     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.25rem', position: 'relative', paddingTop: '8px' }}>
                       {fight.predWinner === 1 && (
-                        <div style={styles.badge}>Predicted Winner</div>
+                        <div style={styles.badge}>Model Pick</div>
                       )}
                       <h3 style={{ ...styles.name, margin: '0.5rem 0 0', textAlign: 'center' }}>{fight.fighter1}</h3>
                       <div style={{ ...styles.odds, margin: '0.5rem 0' }}>
@@ -99,7 +100,7 @@ export default function App() {
                     </div>
                   </div>
 
-                  <div style={styles.vs}>vs</div>
+                  <div style={styles.vs}>VS</div>
 
                   <div
                     style={{
@@ -131,7 +132,7 @@ export default function App() {
                   >
                     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.25rem', position: 'relative', paddingTop: '8px' }}>
                       {fight.predWinner === 2 && (
-                        <div style={styles.badge}>Predicted Winner</div>
+                        <div style={styles.badge}>Model Pick</div>
                       )}
                       <h3 style={{ ...styles.name, margin: '0.5rem 0 0', textAlign: 'center' }}>{fight.fighter2}</h3>
                       <div style={{ ...styles.odds, margin: '0.5rem 0' }}>

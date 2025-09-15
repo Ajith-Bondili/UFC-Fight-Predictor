@@ -9,8 +9,7 @@ export default defineConfig({
     allowedHosts: [
       'localhost',
       'host.docker.internal',
-      '.vercel.app',
-      '.onrender.com'
+      '.vercel.app'
     ],
     proxy: {
       '/fights': {

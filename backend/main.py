@@ -1,54 +1,18 @@
-import json
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel
-from typing import List
-import pandas as pd
-
-from elo_engine import UFCEloEngine
-from predictions import compute_metrics
+from app.config import get_cors_origins
+from app.routes import router
 
 app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:5173", 
-        "http://frontend:5173",
-        "https://fightev.vercel.app",
-        "https://vercel.app"
-    ],
+    allow_origins=get_cors_origins(),
     allow_methods=["GET"],
     allow_headers=["*"],
 )
 
-df = pd.read_csv("data/ufcfights.csv")
-engine = UFCEloEngine()
-engine.process_fights(df)
-
-with open("data/card.json") as f:
-    raw = json.load(f)
-FIGHTS = [
-    (bout["fighter1"], bout["fighter2"], bout["odds1"], bout["odds2"])
-    for bout in raw
-]
-
-class FightOut(BaseModel):
-    fighter1: str
-    fighter2: str
-    odds1: int
-    odds2: int
-    eloProb1: float
-    eloProb2: float
-    impProb1: float
-    impProb2: float
-    ev1: float
-    ev2: float
-    predWinner: int
-
-@app.get("/fights", response_model=List[FightOut])
-def get_fights():
-    return compute_metrics(engine, FIGHTS)
+app.include_router(router)
 
 if __name__ == "__main__":
     import uvicorn
